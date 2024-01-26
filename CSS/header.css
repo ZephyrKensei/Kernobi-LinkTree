@@ -115,6 +115,7 @@ h1 {
   align-items: center;
   text-align: center;
   position: sticky;
+  cursor: pointer;
 }
 
 .social li a {
