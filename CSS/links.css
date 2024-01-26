@@ -29,6 +29,12 @@
   border-radius: 20px;
 }
 
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
+
 .card {
   background: #191c29;
   padding: 4px;
@@ -74,7 +80,7 @@
   }
 }
 
-/* Links */
+/* Promo Links */
 .links-content {
   display: flex;
   flex-wrap: nowrap;
@@ -83,7 +89,7 @@
 }
 
 .links-wrapper {
-  width: 400px;
+  width: 450px;
 }
 
 .links {
@@ -98,6 +104,7 @@
 .links h2,
 p {
   font-size: 16px;
+  font-weight: 400;
   margin: -15px;
   letter-spacing: 0.2px;
 }

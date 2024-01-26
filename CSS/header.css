@@ -104,10 +104,6 @@ h1 {
 }
 
 /* Social Icons */
-section {
-  margin: 80px auto;
-}
-
 .ease-all {
   transition: all 400ms ease-in-out;
 }
