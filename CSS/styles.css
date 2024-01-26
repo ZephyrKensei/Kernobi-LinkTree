@@ -42,7 +42,7 @@ p {
 }
 
 /*Defaults*/
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
 }
 
 @media (min-width: 992px) {
@@ -52,4 +52,4 @@ p {
   .container {
     max-width: 1140px;
   }
-}
+} */
