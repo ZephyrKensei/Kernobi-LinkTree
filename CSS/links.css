@@ -4,7 +4,7 @@
   position: relative;
   max-width: 800px;
   min-width: 400px;
-  margin: 75px auto;
+  margin: auto;
   background: #191c29;
   box-shadow: 0px 10px 80px #fff;
   padding: 25px;
@@ -100,7 +100,7 @@
   max-width: 380px;
 }
 
-.links h2,
+.link-item h2,
 p {
   font-size: 16px;
   font-weight: 400;
@@ -153,4 +153,61 @@ p {
   border: 1px solid white;
   border-radius: 50%;
   margin-left: -15px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 375px) {
+  /* For mobile phones: */
+  /* Header */
+  h1 {
+    font-size: 80px;
+  }
+  .profile-img {
+    width: 70%;
+    margin: auto;
+  }
+  /* Socials */
+  .social-btns {
+    position: relative;
+    margin: 0px 40px;
+    flex-wrap: wrap;
+  }
+  .links-card {
+    min-width: 300px;
+  }
+  .links-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .links-card-img {
+    width: 240px;
+    margin-bottom: 30px;
+    transform: none;
+  }
+  .links-wrapper {
+    width: 300px;
+  }
+  .links-img {
+    margin-left: -20px;
+  }
+  .link-item h2,
+  p {
+    font-size: 14px;
+  }
+  .share-btn li a {
+    width: 30px;
+    height: 30px;
+    padding-top: 6px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* Tablets / Ipads */
+}
+
+@media only screen and (max-width: 1200px) {
+  /* Desktop */
+  .container {
+    max-width: 1140px;
+  }
 }

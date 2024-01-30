@@ -47,16 +47,3 @@ p {
 section {
   margin: 80px auto;
 }
-
-/*Defaults*/
-@media (min-width: 768px) {
-}
-
-@media (min-width: 992px) {
-}
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
-}
