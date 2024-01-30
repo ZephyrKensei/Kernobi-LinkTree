@@ -1,0 +1,79 @@
+footer {
+  margin: 20px auto;
+  opacity: 30%;
+}
+.footer-creator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.brand-logo:hover {
+  box-shadow: #fff 0px 0px 0px 3px;
+}
+
+.footer-creator p {
+  margin: 11px;
+  font-size: 12px;
+  color: bisque;
+}
+
+.footer-creator a {
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.footer-btn {
+  position: relative;
+  height: 20px;
+  padding: 3px 5px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  border: none;
+  background: lightslategrey;
+}
+
+.footer-btn:hover {
+  color: #ff0000;
+  background: transparent;
+}
+
+.footer-btn:before,
+.footer-btn:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #ff0000;
+  transition: 400ms ease all;
+}
+
+.footer-btn:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+.footer-btn:hover:before,
+.footer-btn:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+@media (max-width: 460px) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}

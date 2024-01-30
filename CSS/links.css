@@ -203,6 +203,12 @@ p {
 
 @media only screen and (max-width: 768px) {
   /* Tablets / Ipads */
+  .links-card {
+    width: 80%;
+  }
+  .btn {
+    width: 330px;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
