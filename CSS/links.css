@@ -156,12 +156,9 @@ p {
 }
 
 /* Responsive */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 475px) {
   /* For mobile phones: */
   /* Header */
-  .container {
-    max-width: 374px;
-  }
   section {
     margin: 60px auto;
   }
@@ -205,9 +202,6 @@ p {
     width: 30px;
     height: 30px;
     padding-top: 6px;
-  }
-  footer {
-    margin: auto;
   }
 }
 

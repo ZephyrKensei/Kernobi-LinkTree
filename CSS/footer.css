@@ -71,9 +71,8 @@ footer {
   transition: 800ms ease all;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 475px) {
   footer {
-    flex-direction: column;
-    text-align: center;
+    margin: auto;
   }
 }
