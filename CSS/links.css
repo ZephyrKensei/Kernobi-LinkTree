@@ -159,6 +159,12 @@ p {
 @media only screen and (max-width: 375px) {
   /* For mobile phones: */
   /* Header */
+  .container {
+    max-width: 374px;
+  }
+  section {
+    margin: 60px auto;
+  }
   h1 {
     font-size: 80px;
   }
@@ -174,14 +180,15 @@ p {
   }
   .links-card {
     min-width: 300px;
+    height: 470px;
+    padding: 10px;
   }
   .links-content {
-    display: flex;
     flex-direction: column;
+    height: 440px;
   }
   .links-card-img {
-    width: 240px;
-    margin-bottom: 30px;
+    width: 280px;
     transform: none;
   }
   .links-wrapper {
@@ -192,12 +199,15 @@ p {
   }
   .link-item h2,
   p {
-    font-size: 14px;
+    font-size: 12px;
   }
   .share-btn li a {
     width: 30px;
     height: 30px;
     padding-top: 6px;
+  }
+  footer {
+    margin: auto;
   }
 }
 
@@ -207,7 +217,7 @@ p {
     width: 80%;
   }
   .btn {
-    width: 330px;
+    width: 270px;
   }
 }
 
